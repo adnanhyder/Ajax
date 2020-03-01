@@ -1,0 +1,229 @@
+@media only screen and (max-width: 1240px) {
+	
+}
+
+@media only screen and (max-width: 1200px){
+	.navbgdark .navbar-nav .nav-link{
+		padding: 6px 15px;
+	}
+}
+@media only screen and (max-width: 1050px) {
+	/*================== Account Setting ==============*/
+	.res_tab{
+		max-width: 315px;
+		width: 100%;
+		margin: auto;
+		-ms-flex: 0 0 100%;
+    	flex: 0 0 100%;
+  		margin-bottom: 10px;
+  		cursor: pointer;
+	}
+	.res_tab .nav-pills{
+		flex-direction: row !important;
+	}
+	.account_setting .max_width_880 .row .col-9{
+		flex: 0 0 95%;
+    	max-width: 95%;
+    	margin: auto;
+	}
+	/*================== Subscription Page ==============*/
+	.subs_feed .row *{
+		font-size: 100%;
+		text-align: center;
+	}
+	.subs_feed .row .col-md-auto{
+		width: 100%;
+	}
+	.user_title{
+		font-size: 22px;
+	}
+	.profileusername{
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+	.col-sm-4.col-m-6.padding_mob{
+		padding: 0px;
+	}
+	/*Navbar DropDown*/
+	.more-menu-caret {
+	    top: 32px;
+	    left: 30px;
+	}
+	.dropdown-menu.adjust_menu {
+	    width: 98.9%;
+	}
+    .navbar-collapse.show {
+        right: 0;
+    }
+    .m-0-tab {
+	    margin-left: 0px !important;
+	    padding: 5px !important;
+	}
+	.navbgdark{
+		padding: 10px !important;
+	}
+	.navbar-collapse {
+		position: absolute;
+		top: 54px;
+		right: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+		width: 100%;
+		transition: all 0.2s ease;
+		display: block;
+		z-index: 50;
+	}
+	.border-right-profile {
+	     border-right: none; 
+	     padding-right: 0px; 
+	}
+	.feed_imgs img, .feed_imgs label img {
+	    max-height: 100%;
+
+	}
+	.more-menu-caret {
+	    top: 32px;
+	    left: 15px;
+	}
+	#popuptoggle_rpass {
+	    padding-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 768px){
+	button.m-0-tab{
+		margin-left: 0% !important;
+	}
+	.profilecontent {
+	    text-align: center;
+	}
+	.userprofile{
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	.profilecomments	.pt-3 {
+	    text-align: left;
+	}
+	.rightReadMore{
+		text-align: center !important;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	.image_upload_sec{
+		float: none !important;
+	}
+	.sub_text_ac{
+		text-align: center !important;
+	}
+}
+
+@media only screen and (max-width: 576px){
+	.col-sm.text-left.account_img{
+		text-align: center !important;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.credit_card img{
+		width: 100%;
+	}
+	.about_us .row .col-3,
+	.about_us .row .col-9{
+		max-width: 100%;
+		text-align: center;
+		-ms-flex: 0 0 100%;
+    	flex: 0 0 100%;
+    	margin: 10px 0px;
+	}
+	/*=============user Profile page ===================*/
+	.userprofile{
+		top: 110px;
+    	margin: auto;
+	}
+	.profileheader{
+		background-size: 100% 100%;
+	    background-position: center center;
+	    padding: 0px;
+	}
+	.profilecontent {
+	    padding-top: 80px;
+	    text-align: center;
+	    padding-top: 121px;
+	}
+	.border-right.pr-3.pb-0 {
+	    border: none !important;
+	}
+	.padding_mob{
+		padding:0px 20px;
+	}
+	.profilecontent {
+	    padding-left: 10px;
+	    padding-right: 10px;
+	}
+	.center-text-tab{
+		text-align: center;
+	}
+	p.pl-2.pr-2.pt-3.text-secondary {
+	    text-align: left !important;
+	}
+}
+@media only screen and (max-width:400px) {
+	/*=============== Registration Popup ===============*/
+	.btn.social{
+		font-size: 12px;
+	}
+	.fb_icon {
+	    height: 16px;
+	    width: 16px;
+	}
+	.max_insta {
+	 	max-width: 170px;
+	}
+	.max_fb {
+		max-width: 161px;
+	}
+	.max_google {
+    	max-width: 146px;
+	}
+	/*=============== Login Popup ===============*/
+	.show-pass a {
+	    color: #008489;
+	    font-size: 13px;
+	}
+	.rem_pass {
+	    font-size: 15px;
+	}
+	.log_link a span{
+		font-size: 15px;
+	}
+	.res_on_mobile{
+		float: none !important;
+	}
+	.res_on_mobile .sendlink{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 300px){
+	.no-gutters .res_tab {
+	    padding: 0px 10px !important;
+	    font-size: 75% !important;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.fb_icon{
+		display: none;
+	}
+	.btn_social{
+		height: auto;
+		min-height: 48px;
+	}
+	.res_tab{
+		max-width: 100%;
+	}
+	.res_tab .nav-pills {
+	    flex-direction: column !important;
+	}
+}
